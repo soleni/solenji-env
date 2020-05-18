@@ -1,0 +1,4 @@
+source ../config/env
+git config --global user.email $EMAIL
+git config --global user.name $USER
+echo "Configure global git user: $(git config user.name) <$(git config user.email)> "

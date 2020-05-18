@@ -1,3 +1,7 @@
+EMAIL="k1a3w3a7i1@gmail.com"
+USER="soleni"
+
 DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )/.." && pwd )"
 
 ASSETS="$DIR/assets"
+CONFIGS="$DIR/configs"
