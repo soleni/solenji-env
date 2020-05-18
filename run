@@ -1,0 +1,9 @@
+#!/bin/bash
+source config/env
+cd "$SCRIPTS/"
+
+./dep
+./git
+./shell
+./theme
+./vim

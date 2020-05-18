@@ -1,3 +1,4 @@
+#!/bin/bash
 echo "Install dependencies."
 while read p; do
   echo "$p"

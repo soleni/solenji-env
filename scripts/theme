@@ -1,3 +1,4 @@
+#!/bin/bash
 echo "Apply visual settings"
 
 source ../config/env
