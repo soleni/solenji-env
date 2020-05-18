@@ -7,8 +7,11 @@ WALLPAPPER="$ASSETS/wall.jpg"
 THEME="Yaru-dark"
 ICONS="Yaru"
 
+
 mkdir ~/.themes
-cp "$ASSETS/$THEME" ~/.themes
+mkdir ~/.icons
+cp -a "$ASSETS/ChromeOS" ~/.themes
+
 gsettings set org.gnome.desktop.interface gtk-theme "$THEME"
 gsettings set org.gnome.desktop.interface icon-theme "$ICONS"
 
