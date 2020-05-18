@@ -1,0 +1,15 @@
+ca-certificates
+pkg-config
+build-essential
+bash-completion
+curl
+libssl-dev
+libxml2
+libxml2-dev
+libcurl4-openssl-dev
+cmake
+xutils-dev 
+autoconf
+libxmu-dev
+zsh
+git
