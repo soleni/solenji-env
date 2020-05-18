@@ -1,0 +1,9 @@
+source ../config/env
+echo "Configure terminal profile."
+#Using gruvbox-dark
+dconf load /org/gnome/terminal/ < "$CONFIG/shell.cfg"
+#OhMyZSH!
+wget https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh
+RUNZSH="no" sh install.sh
+rm -f install.sh
+sudo chsh -s $(which zsh)

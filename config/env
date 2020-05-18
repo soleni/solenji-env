@@ -4,4 +4,4 @@ USER="soleni"
 DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )/.." && pwd )"
 
 ASSETS="$DIR/assets"
-CONFIGS="$DIR/configs"
+CONFIG="$DIR/config"
