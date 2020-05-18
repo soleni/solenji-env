@@ -1,0 +1,24 @@
+echo "Apply visual settings"
+
+source ../config/env
+
+WALLPAPPER="$ASSETS/wall.jpg"
+THEME="Yaru-dark"
+ICONS="Yaru"
+
+mkdir ~/.themes
+cp "$ASSETS/$THEME" ~/.themes
+gsettings set org.gnome.desktop.interface gtk-theme "$THEME"
+gsettings set org.gnome.desktop.interface icon-theme "$ICONS"
+
+gsettings set org.gnome.desktop.background picture-uri "$WALLPAPPER"
+gsettings set org.gnome.desktop.screensaver picture-uri "$WALLPAPPER"
+
+gsettings set org.gnome.desktop.background show-desktop-icons false
+gsettings set org.gnome.desktop.interface clock-show-date true
+
+gsettings set org.gnome.nautilus.preferences show-hidden-files true
+gsettings set org.gnome.nautilus.preferences default-folder-viewer 'list-view'
+gsettings set org.gnome.nautilus.list-view default-zoom-level 'small'
+
+gsettings set org.gnome.desktop.interface show-battery-percentage true
