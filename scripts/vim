@@ -6,3 +6,6 @@ curl -fLo ~/.vim/autoload/plug.vim --create-dirs \
     https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
        
 cat "$CONFIG/.vimrc" > ~/.vimrc
+
+vim ~/.vimrc +PluginInstall +qall
+python3 ~/.vim/plugged/youcompleteme/install.py --all

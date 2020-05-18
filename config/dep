@@ -13,3 +13,4 @@ autoconf
 libxmu-dev
 zsh
 git
+python3-dev
