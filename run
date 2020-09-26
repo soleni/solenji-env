@@ -2,7 +2,7 @@
 source config/env
 cd "$SCRIPTS/"
 
-./dep
+./deps
 ./git
 ./shell
 ./theme
